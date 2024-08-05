@@ -1,0 +1,15 @@
+.Statistics {
+  display: flex;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  .Statistics {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Statistics {
+margin-top: 150px !important;
+  }
+}

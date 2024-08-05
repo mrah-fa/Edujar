@@ -1,0 +1,62 @@
+footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  row-gap: 45px;
+  margin-bottom: 94px;
+}
+footer .col {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+  width: 100%;
+  gap: 24px;
+}
+footer .col:first-child {
+  max-width: 361px;
+}
+footer .col:last-child {
+  max-width: 283px;
+}
+footer .col p {
+  font-size: 16px;
+  line-height: 30px;
+  text-align: justify;
+}
+footer .col h4 {
+  font-size: 16px;
+  font-weight: 500;
+}
+footer .col h4 span {
+  color: var(--yellow-color);
+}
+footer h3 {
+  font-family: "KOHO";
+  font-weight: 700;
+  font-size: 25px;
+}
+footer ul li {
+  margin-bottom: 8px;
+}
+.subscribe-btn button {
+  background-color: var(--green-color);
+  border: 0;
+}
+footer .col input {
+  background-color: transparent;
+  border: 0;
+  outline: 0;
+  border-bottom: 1px solid #e1efffa8;
+  padding-bottom: 14px;
+  color: #fff;
+}
+footer .col input::placeholder {
+  color: #d9ecff;
+  font-size: 14px;
+}
+@media screen and (max-width: 768px) {
+  footer .container {
+    margin-bottom: 64px;
+  }
+}

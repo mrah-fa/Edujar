@@ -1,0 +1,50 @@
+.StatisticsCard {
+  max-width: 230px;
+  height: 130px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+}
+.StatisticsCard:nth-child(even) {
+  background-color: var(--green-color);
+}
+.StatisticsCard:nth-child(odd) {
+  background-color: #354c66;
+}
+.StatisticsCard:nth-child(3) {
+  max-width: 446px;
+  flex-shrink: 0;
+}
+.StatisticsCard h3 {
+  font-size: 30px;
+  font-family: "KOHO";
+}
+.StatisticsCard p {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color);
+  white-space: nowrap;
+}
+.custom-statistic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0 43px;
+  margin-block: 20px;
+}
+.custom-statistic .rate {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 25px;
+  font-weight: 700;
+}
+@media screen and (max-width: 992px) {
+  .StatisticsCard {
+    max-width: 100% !important;
+  }
+}

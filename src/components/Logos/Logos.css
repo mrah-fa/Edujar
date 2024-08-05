@@ -1,0 +1,9 @@
+.logos .container{
+  position: relative;
+}
+.logos img{
+ margin: auto;
+}
+.swiper-slide{
+  display: flex !important;
+}

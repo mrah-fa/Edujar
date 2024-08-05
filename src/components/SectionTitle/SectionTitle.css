@@ -1,0 +1,22 @@
+.section-title {
+  margin-bottom: var(--section-title-mb);
+}
+.section-title h2 {
+  font-size: 42px;
+  font-weight: 700;
+  font-family: "KOHO";
+  margin-bottom: 10px;
+}
+.section-title p {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--text-color);
+}
+@media screen and (max-width: 786px) {
+  .section-title p {
+    font-size: 14px;
+  }
+  .section-title h2 {
+    font-size: 28px;
+  }
+}

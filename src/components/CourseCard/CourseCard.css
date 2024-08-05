@@ -1,0 +1,67 @@
+.course-card {
+  background-color: #20344A;
+  border-radius: 30px;
+  padding: 32px 20px;
+  transition: .4s;
+  cursor: pointer;
+}
+.course-card:hover{
+  background-color: #364C65;
+}
+.course-card .course-card-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+.course-card .course-card-top > div {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 16px;
+  color: var(--text-color);
+}
+.course-card .course-card-top button {
+  border: 2px solid #d9ecff7c;
+  color: var(--light-color);
+  border-radius: 18px;
+  padding: 2px 20px;
+  font-size: 14px;
+}
+.play-icon {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course-card .course-card-mid h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  color: var(--text-color);
+  font-family: "KOHO";
+  margin-bottom: 16px;
+}
+.course-card .course-card-mid p {
+  font-size: 14px;
+  color: #7b92ac;
+  line-height: 28px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #dadaf75b;
+  margin-bottom: 30px;
+}
+.course-card .course-card-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.course-card .course-card-bottom button {
+  background-color: var(--green-color);
+  color: var(--light-color);
+  font-size: 16px;
+  font-weight: 700;
+  width: 130px;
+  height: 36px;
+}
